@@ -247,6 +247,7 @@
         \etdChapterStyle{\normalfont\LARGE\bfseries\noindent #1}                       %     TITLE OF CHAPTER
         %\end{center}
         \setlength{\topmargin}{0in}   % back to 1in
+        \vspace*{0.5in}
 
 }}
 \renewcommand{\@makeschapterhead}[1]{{  
@@ -257,6 +258,7 @@
         \etdChapterHeadFormat{#1}                       %     TITLE OF CHAPTER
         \end{center}
         \setlength{\topmargin}{0in}   % back to 1in
+        \vspace*{0.5in}
 }}
 \renewcommand\section{\@startsection {section}{1}{\z@}%
                                 {-3.5ex \@plus -1ex \@minus -.2ex}%
